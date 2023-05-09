@@ -3,7 +3,6 @@ import useStore from '@store/store';
 
 import ClearConversation from './ClearConversation';
 import Api from './Api';
-import AboutMenu from '@components/AboutMenu';
 import ImportExportChat from '@components/ImportExportChat';
 import SettingsMenu from '@components/SettingsMenu';
 import CollapseOptions from './CollapseOptions';
@@ -22,7 +21,6 @@ const MenuOptions = () => {
         } overflow-hidden transition-all`}
       >
         {googleClientId && <GoogleSync clientId={googleClientId} />}
-        <AboutMenu />
         <ClearConversation />
         <ImportExportChat />
         <Api />
