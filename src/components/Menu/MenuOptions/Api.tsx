@@ -17,7 +17,6 @@ const Config = () => {
         <PersonIcon />
        
       </a>
-      {isModalOpen && <ApiMenu setIsModalOpen={setIsModalOpen} />}
     </>
   );
 };
