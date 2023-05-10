@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
-import PersonIcon from '@icon/PersonIcon';
 
 const Config = () => {
   const { t } = useTranslation();
@@ -14,7 +13,6 @@ const Config = () => {
         id='api-menu'
         onClick={() => setIsModalOpen(true)}
       >
-        <PersonIcon />
        
       </a>
     </>
