@@ -15,7 +15,7 @@ const Config = () => {
         onClick={() => setIsModalOpen(true)}
       >
         <PersonIcon />
-        {t('api')}
+       
       </a>
       {isModalOpen && <ApiMenu setIsModalOpen={setIsModalOpen} />}
     </>
